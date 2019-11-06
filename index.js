@@ -2,10 +2,10 @@ var weekDayIf = prompt('Please enter Day');
 var weekDayIfUpper = weekDayIf.toUpperCase();
 
 
-if (weekDayIfUpper == 'MONDAY' || 'TUEDSAY' || 'WEDNESDAY' || 'THURSDAY' || 'FRIDAY') {
+if (weekDayIfUpper == 'MONDAY' && 'TUESDAY' || 'WEDNESDAY' && 'THURSDAY' || 'FRIDAY') {
     weekDayResult = 'Working day';
 } else
-if (weekDayIfUpper == 'SATURDAY' || 'SUNDAY') {
+if (weekDayIfUpper == 'SATURDAY' && 'SUNDAY') {
     weekDayResult = 'Weekend';
 } else {
     weekDayResult = 'Can not define, please try another value';
